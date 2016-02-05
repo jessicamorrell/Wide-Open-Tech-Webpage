@@ -1,0 +1,622 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+p, h1, h2, h3, h4, h5, h6, .howItWorksText, .worksText, .lightText, .lightLearnAbout, .signUp, .enterEmail, .signUpButton, .copyRight, .navFooter, .section5Title, .section4Title, .textContainer {
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 300;
+}
+
+.mainSections {
+	width: 100%;
+	min-height: 30vh;
+	display: block;
+}
+
+#section1 {
+	min-height: 70vh;
+	background: url(images/main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	z-index: -1;
+}
+
+nav {
+	width: 100%;
+	min-height: 80px;
+	background: clear;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.navBarBox {
+	min-height: 80px;
+	width: 100%;
+	background: clear;
+	text-align: center;
+
+}
+
+.navBar {
+	width: ;
+	min-height: ;
+	display: inline-block;
+	color: #fff;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 300;
+	margin-top: 15px;
+}
+
+.options {
+	margin-top: 0px;
+}
+
+.button {
+	width: 130px;
+	height: 30px;
+	background-color: #BCD436;
+	color: #fff;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.logoLine1, .logoLine2, .logoLine3 {
+	display: block;
+	margin:0px auto;
+	width: 80%;
+	color: #fff;
+}
+
+.lato {
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 300;
+	margin:0px;
+}
+
+.largeLato {
+	font-weight: 400;
+}
+
+.logoLine1 {
+	text-align: center;
+	font-size: 34px;
+}
+
+.logoLine2 {
+	text-align: center;
+	font-size: 100px;
+	font-weight: 400;
+}
+
+.logoLine3 {
+	text-align: center;
+	font-size:24px;
+	margin-bottom: 3%;
+}
+
+.orange {
+	color: #FF803A;
+}
+
+.green {
+	color: #BDD435;
+}
+
+.learnMore {
+
+}
+
+#section2 {
+	background-color: #F0F0F0;
+	min-height: 
+	text-align: center;
+	display: block;
+
+}
+
+.toolText {
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 300;
+	color: #40666d;
+	font-size: 27px;
+	text-align: center;
+	width: 50%;
+	display: block;
+	margin: auto;
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+
+.toolIcon {
+	background: url(images/tool.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.howItWorksText {
+	color: #40666d;
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-family: 'Oswald', 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+
+.worksText {
+	font-family: 'Oswald', 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 400;
+	color: #BCD436;
+}
+
+#section3 {
+	background-color: #FFF;
+	min-height: 40vh;
+	
+}
+
+.section3SubContainer {
+	margin: 20px 10px;
+}
+
+.light {
+	width: 33%;
+	display:inline-block;
+	border-right: solid #40666D; 
+	border-width: 1px;
+}
+
+.lightImg {
+	background: url(images/light.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 120px;
+	height: 120px;
+	display: block;
+	margin: 40px auto;
+
+}
+
+.lightText {
+	font-size: 20px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	margin-bottom: 40px;
+}
+
+.lightLearnAbout {
+	font-size: 15px;
+	color: #BDD537;
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.lightArrow {
+
+}
+
+.onlyLightText {
+	margin-bottom: 90px;
+}
+
+.arrow {
+	width: 33%;
+	display:inline-block;
+	border-right: solid #40666D; 
+	border-width: 1px;
+}
+
+.arrowImg {
+	background: url(images/path.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.arrowText {
+
+}
+
+.arrowLearnAbout {
+
+}
+
+.arrowArrow {
+
+}
+
+.power {
+	width: 33%;
+	display: inline-block;
+}
+
+.powerImg {
+	background: url(images/power.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 120px;
+	height: 120px;
+}
+
+.powerText {
+
+}
+
+.powerLearnAbout {
+
+}
+
+.powerArrow {
+
+}
+
+#section4 {
+	background-color: #F0F0F0;
+	min-height: 80vh;
+}
+
+.section4Title {
+	display: block;
+	margin: auto;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.section4SubTitle {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.featuresBox {
+	display: block;
+	margin: auto;
+	text-align: center;
+	min-height: 30vh;
+}
+
+.featuresSubBox {
+	width: 40%;
+	display: inline-block;
+	height: 40vh;
+}
+
+.featuresSubBox1 {
+	vertical-align: top;
+}
+
+.featuresSubBox2 {
+	vertical-align: top;
+}
+
+.textContainer {
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+	font-size: 30px;
+	color: #3F646B;
+	margin-bottom: 10px;
+}
+
+.innerTextContainer {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	min-height: 20vh;
+	width: 75%;
+	display: block;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.textContainer1 {
+}
+
+.textContainer2 {
+	
+}
+
+.textContainer3 {
+	
+}
+
+.textContainer4 {
+	
+}
+
+.textContainer5 {
+	
+}
+
+.contactUsButton {
+	display: block;
+	margin: auto;
+	font-weight: 400;
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+#section5 {
+	background-color: #BDD537;
+	min-height: 70vh;
+	text-align: center;
+}
+
+.section5Title {
+	display: block;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.companiesContainer {
+	width: 60%;
+	display: block;
+	margin: auto;
+
+}
+
+.companyLogo {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+
+.section5Spacer {
+	height: 5vh;
+}
+
+#section6 {
+	
+}
+
+.cityImage {
+	display: inline-block;
+	width: 49.5%;
+	height: 50px;
+	margin: auto;
+
+}
+
+.image1 {
+	/*background: url(images/wilmington.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;*/
+	display: inline-block;
+}
+
+.image2 {
+	/*background: url(images/asheville.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;*/
+	display: inline-block;
+}
+
+#section7 {
+	background-color: #FEFEFE;
+	min-height: 50vh;
+	display: block;
+}
+
+.section7Container {
+	width: 50%;
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+.signUp {
+	color: #788488;
+}
+
+.signUpTitle {
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.signUpDescrip {
+	margin-bottom: 20px;
+}
+
+.signUpEmailBox {
+	background-color: #F0F0F0;
+	border-radius: 7px;
+	border-color: #F0F0F0;
+	border: 0px;
+	height: 50px
+	width: 50%;
+	display: block;
+	margin: auto;
+
+}
+
+.enterEmail {
+	display: inline-block;
+	background-color: #F0F0F0;
+	width: 40%;
+	height: 100%;
+	border-radius: 7px;
+	border-color: #F0F0F0;
+	border: 0px;
+	color: #788488;
+	text-align: left;
+}
+
+.emailFiller {
+	width: 5%;
+	z-index: 1;
+}
+
+.signUpButton {
+	display: inline-block;
+	background-color: #C2D84A;
+	width: 40%;
+	height: 100%;
+	color: #fff;
+	border-radius: 7px;
+	border-color: #C2D84A;
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer {
+	background-color: #788488;
+	height: 70px;
+}
+
+.copyRight, .navFooter {
+	font-size: 15px;
+	color: #fff;
+}
+
+.copyRight {
+	width: 20%;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-size: 10px;
+}
+
+.navFooter {
+	width: 60%;
+	float: right;
+	margin: 0px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .largeLato {
+    	font-size: 80px;
+    }
+
+    .toolText {
+    	width: 80%;
+    }
+    .lightText {
+    	width: 90%;
+    }
+
+    .light {
+    	display:block;
+    	width: 100%;
+    	margin-bottom: 100px;
+    	border:none;
+    }
+
+    .arrow {
+    	display: block;
+    	width: 100%;
+    	margin-bottom: 100px;
+    	border: none;
+    }
+
+    .power {
+    	display: block;
+    	width: 100%;
+    }
+
+    .onlyLightText {
+		margin-bottom: 40px;
+	}
+
+   	.lightText {
+   		width: 50%;
+   	}
+
+   	.lightLearnAbout {
+   		width: 50%;
+   		/*border-bottom: solid #40666D; 
+		border-width: 1px;
+		border-right: none;*/
+   	}
+
+   	.signUpEmailBox {
+   		width: 70%;
+   	}
+
+   	.textContainer {
+   		font-size: 20px;
+   	}
+
+   	.featuresBox {
+   		min-height: 5vh;
+   	}
+}
+
+@media screen and (max-width: 600px) {
+    .largeLato {
+    	font-size: 60px;
+    }
+    .toolText {
+    	width: 95%;
+    }
+
+    .lightText {
+    	width: 90%;
+    }
+
+    .light {
+    	margin-bottom: 60px;
+    }
+
+    .lightText {
+    	margin-bottom: 20px;
+    }
+
+    .arrow {
+    	margin-bottom: 60px;
+    }
+
+    .power {
+
+    }
+
+    .signUpEmailBox {
+    	width: 90%
+    }
+
+    .copyRight {
+    	display: none;
+    }
+
+    
+}
+
